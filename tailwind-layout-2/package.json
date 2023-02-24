@@ -1,0 +1,15 @@
+{
+  "name": "tailwind-layout-2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "npx tailwindcss -i ./src/input.css -o ./src/css/main.css --watch",
+    "build": "npx tailwindcss -i ./src/input.css -o ./src/css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tailwindcss": "^3.2.7"
+  }
+}
